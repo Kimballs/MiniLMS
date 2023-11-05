@@ -1,18 +1,15 @@
 # Development Notes
 
-## Purpose
-This document is a collection of random notes related to the Mini Library Management System project. 
-Markdown format was chosen for its simplicity and effectiveness in creating and saving documentation.
+This document is a collection of random notes related to the Mini Library Management System (MiniLMS) project.
 
 ## Log Entries
 
 ### Sunday, November 6th
-
-[Add your notes or updates for November 6th here.]
+- Entries pending for the day.
 
 ### Sunday, November 5th
+- Note 1: Discovered the usefulness of the Markdown language for documentation, which uses the `.md` extension.
+- Note 2: Utilized Git for version control. Used the commands `git add .` to stage changes and `git commit -m "Initial commit"` to commit the staged changes with a descriptive message.
+- Note 3: Additional notes or observations for the day can be added here.
 
-Today, I discovered the usefulness of the Markdown language, which uses the `.md` extension. It appears to be the ideal choice for creating and saving project documentation. Although I'm still getting acquainted with its features and syntax, it seems promising for maintaining clear and organized project notes.
-
-[Further notes for November 5th...]
 
