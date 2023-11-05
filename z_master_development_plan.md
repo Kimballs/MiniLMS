@@ -17,9 +17,12 @@ Establish the foundational console-based application with basic functionalities.
   - Develop the main navigation system (main.py) with options for managing books, members, and borrowing records.
 
 ### Version Control
-- **Task: Initialize Git Repository**
-  - Use PyCharm's VCS integration to initialize a Git repository and make regular commits.
-
+- [x] **Task: Initialize Git Repository**
+  - [X] Utilize PyCharm's VCS integration to initialize a Git repository.
+  - [X] Utilize GitKraken VCS integration to initalize a Git repository
+  - [X] Used Bash for Git Commands
+  - [ ] Regularly commit with descriptive messages.
+  
 ### Data Persistence
 - **Task: Introduce Data Storage Solutions**
   - Start with CSV files and transition to SQLite for data management.
