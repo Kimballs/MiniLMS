@@ -1,18 +1,95 @@
-@startum1
+@startuml
+
+class LibraryItem {
+  - item_id
+  - title
+  - genre
+  - location
+  + add_item()
+  + remove_item()
+  + find_item()
+}
+
 class Book {
-    - String title
-    - String author
-    // ... other attributes and methods
+  - author
+  - ISBN
+  - publication_year
+  + check_availability()
+  + reserve_book()
 }
 
 class Member {
-    // ... other attributes and methods
+  - member_id
+  - name
+  - email
+  - membership_type
+  + register_member()
+  + update_info()
+  + deactivate_member()
 }
 
 class BorrowingRecord {
-     // ... other attributes and methods
+  - record_id
+  - member_id
+  - borrow_date
+  - due_date
+  - return_date
+  + create_record()
+  + update_record()
+  + calculate_fine()
 }
 
-Member "1" -- "0. .*" BorrowingRecord: has >
-BorrowingRecord "*"" -- "1" Book : borrows >
-@endum1
+class FictionBook {
+  - subgenre
+}
+
+class NonFictionBook {
+  - field
+}
+
+class ReferenceBook {
+  - is_for_lending
+}
+
+class AdultMember {
+  - fines_owed
+}
+
+class ChildMember {
+  - guardian_name
+}
+
+class SeniorMember {
+  - discount_rate
+}
+
+class CurrentBorrowing {
+  - is_overdue
+}
+
+class HistoricalBorrowing {
+  - was_fine_paid
+}
+
+class ReservedBorrowing {
+  - reservation_date
+  - expiration_date
+}
+
+LibraryItem <|-- Book
+LibraryItem <|-- Member
+LibraryItem <|-- BorrowingRecord
+
+Book <|-- FictionBook
+Book <|-- NonFictionBook
+Book <|-- ReferenceBook
+
+Member <|-- AdultMember
+Member <|-- ChildMember
+Member <|-- SeniorMember
+
+BorrowingRecord <|-- CurrentBorrowing
+BorrowingRecord <|-- HistoricalBorrowing
+BorrowingRecord <|-- ReservedBorrowing
+
+@enduml

@@ -22,3 +22,12 @@ Note 4: Updated the 'Z_master_development_plan'. The 'Z_' prefix, while unconven
       - [x] Used Bash for Git commands.
       - [ ] Regularly commit with descriptive messages. 
 
+### Note 5: Visualization of Classes with PlantUML
+
+Added PlantUML code to try and visualize classes within the IDE/PyCharm, avoiding the need for a subscription service. Here's the current UML representation:
+
+### Note 6: UML Structure
+#### LibraryItem.py
+#### Book.py
+#### Member.py
+#### BorrowingRecord.py
