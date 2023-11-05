@@ -1,0 +1,18 @@
+@startum1
+class Book {
+    - String title
+    - String author
+    // ... other attributes and methods
+}
+
+class Member {
+    // ... other attributes and methods
+}
+
+class BorrowingRecord {
+     // ... other attributes and methods
+}
+
+Member "1" -- "0. .*" BorrowingRecord: has >
+BorrowingRecord "*"" -- "1" Book : borrows >
+@endum1
