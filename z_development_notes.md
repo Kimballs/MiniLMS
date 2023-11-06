@@ -107,6 +107,5 @@ Example Prompt:
 
 ChatGPT: "Seeking direct code? Let's pivot to examining the concepts. The Python documentation [link] and Flask tutorial [link] can offer insights. Need help navigating these? Just ask!"
 
-### Example Prompt for AI:
-Personal Notes 8 - < It's absured but Im not sure what sort of documentation system this is turning into but I figured I might as well throw randome notes in a document close by for reference
-
+### Personal Notes 8
+< It's absurd but I'm not sure what sort of documentation system this is turning into but I figured I might as well throw random notes in a document close by for reference.
