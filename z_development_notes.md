@@ -27,7 +27,44 @@ Note 4: Updated the 'Z_master_development_plan'. The 'Z_' prefix, while unconven
 Added PlantUML code to try and visualize classes within the IDE/PyCharm, avoiding the need for a subscription service. Here's the current UML representation:
 
 ### Note 6: UML Structure
-#### LibraryItem.py
-#### Book.py
-#### Member.py
-#### BorrowingRecord.py
+# UML Outline for Library Management System
+
+## Parent Class
+- `LibraryItem`
+  - Attributes: `item_id`, `title`, `genre`, `location`
+  - Methods: `add_item()`, `remove_item()`, `find_item()`
+
+## Child Classes
+
+### Book (inherits from LibraryItem)
+- Additional Attributes: `author`, `ISBN`, `publication_year`
+- Additional Methods: `check_availability()`, `reserve_book()`
+- Subclasses:
+  - `FictionBook` (inherits from Book)
+    - Additional Attributes: `subgenre`
+  - `NonFictionBook` (inherits from Book)
+    - Additional Attributes: `field`
+  - `ReferenceBook` (inherits from Book)
+    - Additional Attributes: `is_for_lending`
+
+### Member (inherits from LibraryItem)
+- Additional Attributes: `member_id`, `name`, `email`, `membership_type`
+- Additional Methods: `register_member()`, `update_info()`, `deactivate_member()`
+- Subclasses:
+  - `AdultMember` (inherits from Member)
+    - Additional Attributes: `fines_owed`
+  - `ChildMember` (inherits from Member)
+    - Additional Attributes: `guardian_name`
+  - `SeniorMember` (inherits from Member)
+    - Additional Attributes: `discount_rate`
+
+### BorrowingRecord (inherits from LibraryItem)
+- Additional Attributes: `record_id`, `member_id`, `borrow_date`, `due_date`, `return_date`
+- Additional Methods: `create_record()`, `update_record()`, `calculate_fine()`
+- Subclasses:
+  - `CurrentBorrowing` (inherits from BorrowingRecord)
+    - Additional Attributes: `is_overdue`
+  - `HistoricalBorrowing` (inherits from BorrowingRecord)
+    - Additional Attributes: `was_fine_paid`
+  - `ReservedBorrowing` (inherits from BorrowingRecord)
+    - Additional Attributes: `reservation_date`, `expiration_date`
