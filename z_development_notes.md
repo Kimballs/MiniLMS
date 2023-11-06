@@ -68,3 +68,45 @@ Added PlantUML code to try and visualize classes within the IDE/PyCharm, avoidin
     - Additional Attributes: `was_fine_paid`
   - `ReservedBorrowing` (inherits from BorrowingRecord)
     - Additional Attributes: `reservation_date`, `expiration_date`
+
+
+# MiniLMS Project: AI Interaction Fail-Safe
+
+## Project Overview
+- **Project Name:** MiniLMS (Learning Management System)
+- **Programming Language:** Python
+
+## AI Interaction Fail-Safe
+
+### Instruction to AI (ChatGPT):
+# MiniLMS Project: AI Interaction Fail-Safe
+
+## Project Overview
+- **Project Name:** MiniLMS (Learning Management System)
+- **Programming Language:** Python
+
+## AI Interaction Fail-Safe
+
+### Instruction to AI (ChatGPT):
+The AI (ChatGPT) is instructed to serve as a guide and resource in the development process of the MiniLMS project. The following guidelines are set for AI interaction:
+
+1. **Assistance:** The AI should provide guidance, examples, explanations, and resources that facilitate the understanding and resolution of problems independently.
+   
+2. **No Direct Answers:** The AI must refrain from providing direct answers or complete code solutions for project tasks.
+   
+3. **Reminder Protocol:** In instances where a direct answer is inadvertently requested, the AI should issue a conversational reminder of this fail-safe and offer alternative forms of assistance that are in line with the project's learning objectives.
+
+### Example Prompt for AI:
+AI Interaction Fail-Safe for MiniLMS Project:
+
+AI Guidance: When I request help, provide explanations, direct me to official documentation, and suggest best practices for my MiniLMS project. Avoid direct code solutions.
+
+Reminder: If I inadvertently ask for direct code, remind me of this approach. Offer alternatives like elaborating on concepts, guiding me through relevant documentation sections, or discussing best practices.
+
+Example Prompt:
+
+ChatGPT: "Seeking direct code? Let's pivot to examining the concepts. The Python documentation [link] and Flask tutorial [link] can offer insights. Need help navigating these? Just ask!"
+
+### Example Prompt for AI:
+Personal Notes 8 - < It's absured but Im not sure what sort of documentation system this is turning into but I figured I might as well throw randome notes in a document close by for reference
+
