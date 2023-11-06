@@ -41,39 +41,48 @@ class BorrowingRecord {
 
 class FictionBook {
   - subgenre
+  + get_subgenre()
 }
 
 class NonFictionBook {
   - field
+  + get_field()
 }
 
 class ReferenceBook {
   - is_for_lending
+  + check_lending_availability()
 }
 
 class AdultMember {
   - fines_owed
+  + pay_fines()
 }
 
 class ChildMember {
   - guardian_name
+  + get_guardian_details()
 }
 
 class SeniorMember {
   - discount_rate
+  + apply_discount()
 }
 
 class CurrentBorrowing {
   - is_overdue
+  + check_overdue_status()
 }
 
 class HistoricalBorrowing {
   - was_fine_paid
+  + check_fine_status()
 }
 
 class ReservedBorrowing {
   - reservation_date
   - expiration_date
+  + extend_reservation()
 }
 
 LibraryItem <|-- Book
