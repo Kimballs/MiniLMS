@@ -5,7 +5,33 @@ This document is a collection of random notes related to the Mini Library Manage
 ## Log Entries
 
 ### Sunday, November 6th
-- Entries pending for the day.
+Note 1: 
+
+# Development Notes
+
+This document is a collection of random notes related to the Mini Library Management System (MiniLMS) project.
+
+## Log Entries
+
+### Sunday, November 6th
+- Note 1: [Details here...]
+
+## Git Commit Message Rules
+Use these guidelines for clear and consistent commit history:
+- **Summary**: Start with action type, keep under 50 chars, no period, use present tense.
+- **Issue Ref**: Include issue/ticket numbers if applicable.
+- **Scope**: Indicate scope for specific parts of the codebase.
+
+### Example Messages
+- `Fix: Correct typo in interface`
+- `Add: New auth protocol support`
+- `Resolve: Prevent error in query (Refs #204)`
+- `Refactor[Admin Module]: User data migration efficiency`
+
+### Tips
+- Avoid jargon; aim for clarity.
+- Detailed body optional; separate from summary with blank line.
+
 
 ### Sunday, November 5th
 Note 1: Discovered the usefulness of the Markdown language for documentation, which uses the `.md` extension.
